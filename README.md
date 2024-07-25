@@ -46,30 +46,33 @@ In computational biology, docking studies help predict the interaction between a
 ## Usage
 1. Prepare the ligand and protein target files:
 
-  a. Place ligand files in the Ligand directory.
-  b. Place protein target files in the Target directory.
+i. Place ligand files in the Ligand directory.
+ii. Place protein target files in the Target directory.
 
-2. Generate centre of masses for proteins
+2. Generate the centre of masses for proteins:
+   ```bash
+   python com_calculator.py
    
-4. Generate job files:
+3. Generate job files:
 
-bash
-Copy code
-python Generate_job/generate_jobs.py
-Submit jobs to the HPC cluster:
+   ```bash
+   python Generate_job/generate_jobs.py
 
-bash
-Copy code
-bash Submit_job/submit_jobs.sh
-Monitor log files and retrieve results:
+4. Submit jobs to the HPC cluster:
+
+   ```bash
+   qsub Submit_job/submit_jobs.sh
+
+5. Monitor log files and retrieve results:
 
 Logs will be available in the Log directory.
 Results will be stored in the Out directory.
-Contributing
+
+## Contributing
 Contributions are welcome! Please read the CONTRIBUTING.md file for guidelines on how to contribute to this project.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+## Contact
 For any questions or suggestions, please open an issue or contact ndolling5@gmail.com
