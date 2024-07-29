@@ -46,9 +46,9 @@ In computational biology, docking studies help predict the interaction between a
 ## Usage
 1. Prepare the ligand and protein target files:
 
-         i. Place ligand files (already converted to pdbqt) in the Ligand directory.  
+   i. Place ligand files (already converted to pdbqt) in the Ligand directory.  
 
-         ii. Place protein target files (already converted to pdbqt) in the Target directory.
+   ii. Place protein target files (already converted to pdbqt) in the Target directory.
 
 2. Generate the centre of masses for proteins:
    ```bash
