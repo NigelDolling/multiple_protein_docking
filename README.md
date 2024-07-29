@@ -70,10 +70,10 @@ Logs will be available in the Log directory.
 Results will be stored in the Out directory.
 
 ## Contributing
-Contributions are welcome! Please read the CONTRIBUTING.md file for guidelines on how to contribute to this project.
+Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT [License](License) - see the LICENSE file for details.
 
 ## Contact
 For any questions or suggestions, please open an issue or contact ndolling5@gmail.com
